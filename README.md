@@ -39,8 +39,8 @@ POST /predict
 | probability | band | action |
 |---|---|---|
 | < 0.20 | low | approve |
-| 0.20 – 0.40 | medium | review |
-| 0.40 – 0.60 | high | decline or ask for collateral |
+| 0.20 - 0.40 | medium | review |
+| 0.40 - 0.60 | high | decline or ask for collateral |
 | > 0.60 | critical | decline |
 
 model is XGBoost, decision threshold 0.66.
